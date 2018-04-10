@@ -1,0 +1,4 @@
+com\qingguatang\product\api\CategoryApi.class
+com\qingguatang\util\IDUtil.class
+com\qingguatang\product\model\Category.class
+com\qingguatang\product\param\CategoryParam.class

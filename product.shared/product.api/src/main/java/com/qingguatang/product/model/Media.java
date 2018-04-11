@@ -1,19 +1,32 @@
-package com.qingguatang.product.param;
-import ch.qos.logback.classic.pattern.DateConverter;
+package com.qingguatang.product.model;
 
-import java.util.Date;
-/**
- * CategoryParam的描述:<br>
- *
- * @author apple 26/03/2018 12:31 PM
- */
-public class CategoryParam{
 
+public class Media {
+
+    private String id;
+    private String Type;
     private Date gmtCreated;
     private Date gmtModified;
     private String name;
     private String url;
+    private String accountId;
     private int size;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getType() {
+        return Type;
+    }
+
+    public void setType(String type) {
+        Type = type;
+    }
 
     public Date getGmtCreated() {
         return gmtCreated;
@@ -47,6 +60,14 @@ public class CategoryParam{
         this.url = url;
     }
 
+    public String getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
+    }
+
     public int getSize() {
         return size;
     }
@@ -54,5 +75,4 @@ public class CategoryParam{
     public void setSize(int size) {
         this.size = size;
     }
-
 }

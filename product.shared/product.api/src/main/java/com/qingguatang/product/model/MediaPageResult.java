@@ -7,6 +7,15 @@ public class MediaPageResult {
     private int pageSize;
     private int currentPage;
 
+    public MediaPageResult(int totalItems,int totalPages,int pageSize,int currentPage){
+
+        this.totalItems = totalItems;
+        this.totalPages = totalPages;
+        this.pageSize = pageSize;
+        this.currentPage = currentPage;
+
+    }
+
     public int getTotalItems() {
         return totalItems;
     }

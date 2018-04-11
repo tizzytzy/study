@@ -32,5 +32,13 @@ public class MediaSearchParam {
         this.currentPage = currentPage;
     }
 
-    List<Media> data = new ArrayList();
+   private List<Media> list = new ArrayList<Media>();
+
+    public List<Media> getList() {
+        return list;
+    }
+
+    public void setList(List<Media> list) {
+        this.list = list;
+    }
 }
